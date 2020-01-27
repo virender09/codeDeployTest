@@ -1,0 +1,8 @@
+version: 0.0
+os: linux 
+  BeforeInstall:
+    - location: ls -la
+      timeout: 60
+  AfterInstall:
+    - location: ls -la     
+      timeout: 60
